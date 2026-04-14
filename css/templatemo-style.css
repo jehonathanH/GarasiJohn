@@ -65,15 +65,6 @@ strong {
 }
 
 /* BUTTON */
-.tm-btn-white-big {
-	background: #e60023;
-	color: white;
-	padding: 12px 30px;
-	border-radius: 30px;
-	font-weight: 600;
-	text-transform: uppercase;
-	border: none;
-}
 
 .tm-btn-white-big:hover {
 	background: #ff1a3c;
