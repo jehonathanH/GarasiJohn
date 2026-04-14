@@ -259,7 +259,7 @@ footer {
 
 /* CONTACT */
 .tm-contact-section {
-    background: #393939;
+    background: linear-gradient(to bottom, #393939, #050505);
     color: gray;
 }
 
