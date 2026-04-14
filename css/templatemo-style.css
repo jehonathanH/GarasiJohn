@@ -40,6 +40,11 @@ a:focus {
 	height: 800px;
 }
 
+strong {
+  color: red;
+  font-weight: 700;
+}
+
 .tm-wrapper-center {
 	display: -webkit-flex;
 	display: -ms-flexbox;
