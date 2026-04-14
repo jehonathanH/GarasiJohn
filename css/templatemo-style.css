@@ -253,13 +253,13 @@ footer {
 
 /* ABOUT */
 .tm-about-section {
-    background: linear-gradient(135deg, #050505, #393939);
+    background: linear-gradient(to bottom, #050505, #393939);
     color: gray;
 }
 
 /* CONTACT */
 .tm-contact-section {
-    background: #393939;
+    background: linear-gradient(to bottom, #393939, #ffffff);
     color: gray;
 }
 
@@ -269,11 +269,6 @@ footer {
     color: #aaa;
 }
 
-/* garis pembatas biar keren */
-.tm-about-section {
-    border-top: 1px solid #222;
-    border-bottom: 1px solid #222;
-}
 
 /* contact sedikit aksen merah */
 .tm-contact-section {
