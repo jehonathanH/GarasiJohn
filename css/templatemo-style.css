@@ -183,7 +183,7 @@ strong {
 }
 
 .tm-contact p {
-	color: #aaa;
+	color: #ffffff;
 	margin-bottom: 10px;
 }
 
@@ -259,7 +259,7 @@ footer {
 
 /* CONTACT */
 .tm-contact-section {
-    background: linear-gradient(to bottom, #393939, #ffffff);
+    background: #393939;
     color: gray;
 }
 
