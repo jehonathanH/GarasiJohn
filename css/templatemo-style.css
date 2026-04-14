@@ -253,14 +253,14 @@ footer {
 
 /* ABOUT */
 .tm-about-section {
-    background: linear-gradient(135deg, #0a0f1c, #111827);
+    background: linear-gradient(135deg, #050505, #393939);
     color: gray;
 }
 
 /* CONTACT */
 .tm-contact-section {
-    background: #050505;
-    color: white;
+    background: #393939;
+    color: gray;
 }
 
 /* biar text lebih jelas */
