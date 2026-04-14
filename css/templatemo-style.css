@@ -245,3 +245,37 @@ footer {
     transition: 0.3s;
     box-shadow: 0 10px 25px rgba(255,0,0,0.3);
 }
+
+
+/* ===============================
+   BACKGROUND KHUSUS SECTION
+================================= */
+
+/* ABOUT */
+.tm-about-section {
+    background: linear-gradient(135deg, #0a0f1c, #111827);
+    color: gray;
+}
+
+/* CONTACT */
+.tm-contact-section {
+    background: #050505;
+    color: white;
+}
+
+/* biar text lebih jelas */
+.tm-about-section .tm-section-subtitle,
+.tm-contact-section .tm-section-subtitle {
+    color: #aaa;
+}
+
+/* garis pembatas biar keren */
+.tm-about-section {
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+/* contact sedikit aksen merah */
+.tm-contact-section {
+    border-top: 1px solid rgba(255,0,0,0.3);
+}
