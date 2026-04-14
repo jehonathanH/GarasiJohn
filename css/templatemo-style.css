@@ -1,195 +1,213 @@
 /* ===============================
-   LUXURY CAR DARK THEME (OCEAN EDIT)
+   LUXURY CAR THEME (FULL VERSION)
 ================================== */
 
+/* RESET */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* BODY */
 body {
-	font-family: 'Poppins', Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
 	background: #0a0a0a;
 	color: #ffffff;
+	line-height: 1.6;
 }
 
 /* LINK */
-a { color: #ff1a3c; }
-a:hover { color: #e60023; }
+a {
+	color: #ff1a3c;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+a:hover {
+	color: #e60023;
+}
 
 /* ================= HERO ================= */
 .tm-section-intro {
-	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-	            url(../img/culinan.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	height: 100vh;
-	color: white;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+	            url('../img/culinan.jpg') center/cover no-repeat;
 }
 
+.tm-wrapper-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* TITLE */
 .tm-section-intro-title {
-	font-size: 5rem;
+	font-size: 56px;
 	font-weight: 700;
 	letter-spacing: 2px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
+/* SUBTITLE */
 .tm-section-intro-text {
-	font-size: 1.8rem;
+	font-size: 20px;
 	font-weight: 300;
+	color: #ccc;
 	margin-bottom: 30px;
 }
 
-.tm-section-intro {
-  position: relative;
-}
-
-.tm-section-intro::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url(../img/culinan.jpg) center/cover no-repeat;
-  transform: scaleX(-1);
-  z-index: -1;
-}
-
-/* highlight */
+/* HIGHLIGHT */
 strong {
 	color: #ff1a3c;
-	font-weight: 600;
 }
 
 /* BUTTON */
+.tm-btn-white-big {
+	background: #e60023;
+	color: white;
+	padding: 12px 35px;
+	border-radius: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
 
 .tm-btn-white-big:hover {
-	background: gray;
+	background: #ff1a3c;
 }
 
 /* ================= SECTION ================= */
 .tm-section {
 	padding: 80px 20px;
-	background: #0a0a0a;
 }
 
+/* TITLE */
 .tm-section-title {
 	font-size: 32px;
 	font-weight: 600;
+	color: #ff1a3c;
+	text-align: center;
 	margin-bottom: 20px;
 }
 
+/* SUBTITLE */
 .tm-section-subtitle {
-	font-size: 16px;
+	text-align: center;
 	color: #aaa;
+	margin-bottom: 50px;
+}
+
+/* ================= GRID ================= */
+.tm-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
 }
 
 /* ================= CARD ================= */
-.tm-icon-text-box {
+.tm-card {
 	background: #111;
 	border: 1px solid #222;
-	padding: 25px;
 	border-radius: 10px;
-	color: #ccc;
+	overflow: hidden;
+	width: 300px;
 	transition: 0.3s;
 }
 
-.tm-icon-text-box:hover {
+.tm-card:hover {
 	transform: translateY(-10px);
 	box-shadow: 0 0 20px rgba(255,0,0,0.3);
 }
 
-.tm-icon-text-box > .fa {
-	color: #ff1a3c;
-	margin-bottom: 15px;
+.tm-card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
 }
 
-.tm-icon-text-box-title {
+.tm-card-content {
+	padding: 20px;
+}
+
+.tm-card-title {
+	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
 
-.tm-icon-text-box-description {
+.tm-card-text {
 	font-size: 14px;
-	color: #aaa;
-}
-
-/* ================= CAROUSEL ================= */
-.tm-carousel-item-title {
-	color: #ff1a3c;
-	font-size: 22px;
-	font-weight: 600;
-}
-
-.tm-carousel-item-text {
 	color: #ccc;
-	font-size: 14px;
+	margin-bottom: 15px;
 }
 
-/* ================= 2 COLUMN ================= */
-.tm-2-col-text-title {
+.tm-card-price {
 	color: #ff1a3c;
-	font-size: 26px;
 	font-weight: 600;
+	margin-bottom: 15px;
 }
 
-.tm-2-col-text-description {
-	color: #ccc;
-	font-size: 15px;
-}
-
-.tm-bordered-btn {
-	border: 2px solid #ff1a3c;
+/* BUTTON */
+.tm-card button {
+	background: transparent;
+	border: 1px solid #ff1a3c;
 	color: #ff1a3c;
-	border-radius: 30px;
-	padding: 10px 25px;
+	padding: 8px 20px;
+	border-radius: 20px;
+	cursor: pointer;
 }
 
-.tm-bordered-btn:hover {
+.tm-card button:hover {
 	background: #ff1a3c;
 	color: white;
+}
+
+/* ================= ABOUT ================= */
+.tm-about {
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+	color: #ccc;
 }
 
 /* ================= CONTACT ================= */
-.form-control {
-	background: #111;
-	border: 1px solid #333;
-	color: white;
-	border-radius: 30px;
+.tm-contact {
+	text-align: center;
 }
 
-.form-control:focus {
-	border-color: #ff1a3c;
-	box-shadow: none;
-}
-
-.tm-contact-title {
-	font-size: 24px;
-	font-weight: 600;
-}
-
-.tm-contact-info {
+.tm-contact p {
 	color: #aaa;
-}
-
-/* ================= SOCIAL ================= */
-.tm-social-icon-link {
-	border: 1px solid #ff1a3c;
-	color: #ff1a3c;
-}
-
-.tm-social-icon-link:hover {
-	background: #ff1a3c;
-	color: white;
+	margin-bottom: 10px;
 }
 
 /* ================= FOOTER ================= */
-.tm-copyright-text {
-	color: #777;
-	font-size: 14px;
+footer {
 	text-align: center;
 	padding: 20px;
+	color: #777;
+	font-size: 14px;
+	border-top: 1px solid #222;
+	margin-top: 40px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+	.tm-section-intro-title {
+		font-size: 36px;
+	}
+
+	.tm-section-intro-text {
+		font-size: 16px;
+	}
+
+	.tm-card {
+		width: 90%;
+	}
 }
