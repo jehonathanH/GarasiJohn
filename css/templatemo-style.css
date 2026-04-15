@@ -99,7 +99,7 @@ strong {
 /* SUBTITLE */
 .tm-section-subtitle {
 	text-align: center;
-	color: #050505;
+	color: #ffffff;
 	margin-bottom: 50px;
 }
 
@@ -165,7 +165,7 @@ strong {
 }
 
 .tm-card button:hover {
-	background: #ff1a3c;
+	background: #ffffff;
 	color: white;
 }
 
@@ -254,13 +254,13 @@ footer {
 /* ABOUT */
 .tm-about-section {
     background: linear-gradient(to bottom, #050505, #393939);
-    color: gray;
+    color: #ffffff;
 }
 
 /* CONTACT */
 .tm-contact-section {
     background: linear-gradient(to bottom, #393939, #050505);
-    color: gray;
+    color: #ffffff;
 }
 
 
